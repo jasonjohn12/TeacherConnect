@@ -1,0 +1,27 @@
+.dashboard {
+  display: flex;
+  margin: 0 25px;
+}
+
+.entry__table {
+  margin-left: 25px;
+  width: 50%;
+}
+
+.student__list {
+  width: 35%;
+}
+
+@media only screen and (max-width: 720px) {
+  .dashboard {
+    flex-direction: column;
+    overflow: scroll;
+  }
+  .student__list {
+    width: 75%;
+  }
+  .entry__table {
+    width: 75%;
+    height: 500px;
+  }
+}
